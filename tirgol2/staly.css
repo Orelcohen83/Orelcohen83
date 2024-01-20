@@ -1,0 +1,39 @@
+h1{
+    background-color: black;
+color: aliceblue;
+}
+
+p{ 
+    color: blue;
+ 
+}
+div{
+    background-color: rgb(27, 171, 61);
+}
+a[href="https://www.google.co.il/"]{
+color: blue;
+}
+button{
+    transition: 4s all linear;
+}
+button:hover {
+    background-color: brown;
+    box-shadow: 4px 4px 4px 4px  rgba(red, green, blue, alpha);
+    transform: translateX(10px,-19px);
+    transition: 5s all linear;
+}
+nav ul {
+    padding:0 ;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: rgb(158, 143, 143);
+}
+nav ul li { 
+    background-color: red;
+    
+
+}
+img{width: 400px;height: 200px;}
