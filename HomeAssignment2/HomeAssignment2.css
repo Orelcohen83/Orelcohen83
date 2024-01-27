@@ -1,0 +1,120 @@
+.flex-box{
+    display:flex ;
+    align-items: center;
+flex-direction: row;
+justify-content: center;
+
+
+}
+.p{
+    font-style: italic;
+    width: 450;
+    height: 150;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+
+
+}
+#sd {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 126, 95);
+}
+#li{
+
+    
+    background-size: cover;
+    background-position: center;
+    height: 60px;
+    width: 125px
+}
+a{
+    color:rgb(230, 205, 205);
+    font-size: large;
+    font-weight: bold;
+    align-items: center;
+    
+}
+#title{
+    display: flex;
+   justify-content: center;
+    flex-direction: row;
+    gap: 50px  ;
+ 
+}
+
+
+.imgcard{
+    width: 100%;
+    height: 100px;
+    margin-right: 4px;
+}
+ 
+#section1p2{
+    background-color: aqua;
+}
+#section2p2{
+    background-color: rgb(178, 211, 211);
+}
+#section3p2{
+    background-color: rgb(23, 169, 194);
+}
+
+.fimg{
+    width: 250 px;
+    height: 150px;
+}
+.sd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p2-flex-box{
+    display:flex ;
+flex-direction: row;
+margin: 25px;
+gap: 20px   ;
+
+
+}
+#attacks{
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
+
+.card {
+    display: flex;
+flex-direction: column;
+    width: 320px;
+    height: 300; 
+    margin: 7px;
+    font-variant-position: sub;
+    font-size: small;
+    border: 15px;
+    color: aliceblue;
+}
+.Wrote{
+    color: rgb(23, 77, 59);
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sizeVideo{
+width: 300px;
+height: 250px;
+}
+
+#sectionp4{
+    background-color: antiquewhite;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
