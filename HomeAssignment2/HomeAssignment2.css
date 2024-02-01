@@ -125,10 +125,10 @@ header { position:sticky; top:0; background-color: aliceblue;}
 
 .imgpage4{background-image: url(./תמונה\ לעמוד\ 4.jpg)}
 
-#body1{background-image: url(/תמונת\ רקע\ סון\ גוקו.jpg)}
-#body4{background-image: url(/תמונת\ רקע\ עמוד\ 4.jpg);}
-#body2{background-image: url(/תמונת\ רקע\ לעמוד\ שתיים.jpg);}
-#body3{background-image: url(/תמונת\ רקע\ לעמוד\ שלוש.jpg)}
+#body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg)}
+#body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);}
+#body2{background-image: url(./תמונת\ רקע\ לעמוד\ שתיים.jpg);}
+#body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg)}
 body{
     min-height: 100vh;
 }
