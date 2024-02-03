@@ -6,8 +6,9 @@ justify-content: center;
 
 
 }
+#seen{display: none; right: 100%;}
 .flex-box2{
-    
+    font-size:xx-small;
     display:flex ;
     align-items: center;
 flex-direction: row;
@@ -179,27 +180,25 @@ nav a:hover{
 
 
 
-@media (max-width: 800px ){
+@media (max-width: 450px ){
     #hideonMobile{
         display: none;
     }
    
-
-
     .flex-box{
         display:flex ;
         align-items: center;
     flex-direction: row;
     justify-content: center;
-    
-    
     }
+    #seen{display: flex; }
+
     .p{
         font-style: italic;
         width: 200;
         height: 100;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        font-size: small;
+        font-size: xx-small;
     
     
     
@@ -335,8 +334,10 @@ nav a:hover{
     
     .imgpage4{background-image: url(./תמונה\ לעמוד\ 4.jpg)}
     
-    #body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg)}
-    #body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);}
+    #body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg);
+   
+    #body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);
+       
     #body2{background-image: url(./תמונת\ רקע\ לעמוד\ שתיים.jpg);}
     #body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg)}
     body{
