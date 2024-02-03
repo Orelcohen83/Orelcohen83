@@ -6,6 +6,14 @@ justify-content: center;
 
 
 }
+.flex-box2{
+    
+    display:flex ;
+    align-items: center;
+flex-direction: row;
+justify-content: center;
+    
+}
 .p{
     font-style: italic;
     width: 450;
@@ -19,7 +27,7 @@ justify-content: center;
 #sd {
     display: flex;
     flex-direction: column;
-    background-color: rgb(241, 126, 95);
+    background-color: rgb(241, 126, 95,0.5);
 }
 .li{
 
@@ -36,7 +44,7 @@ a{
     align-items: center;
     
 }
-#title{
+.title{
     display: flex;
    justify-content: center;
     flex-direction: row;
@@ -50,15 +58,20 @@ a{
     height: 100px;
     margin-right: 4px;
 }
+.img {
+    width: 300;
+    height: 250px;
+    border-radius: 40%;
+}
  
 #section1p2{
-    background-color: aqua;
+    background-color: rgb(167, 243, 243,0.5);
 }
 #section2p2{
-    background-color: rgb(178, 211, 211);
+    background-color: rgb(178, 211, 211,0.5);
 }
 #section3p2{
-    background-color: rgb(23, 169, 194);
+    background-color: rgb(23, 169, 194,0.5);
 }
 
 .fimg{
@@ -106,8 +119,9 @@ flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .sizeVideo{
-width: 300px;
-height: 250px;
+width: 200px;
+margin: 8px;
+
 }
 
 #sectionp4{
@@ -125,39 +139,233 @@ header { position:sticky; top:0; background-color: aliceblue;}
 
 .imgpage4{background-image: url(./תמונה\ לעמוד\ 4.jpg)}
 
-#body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg)}
-#body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);}
-#body2{background-image: url(./תמונת\ רקע\ לעמוד\ שתיים.jpg);}
-#body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg)}
+#body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg);
+    background-repeat: no-repeat; background-size: cover;}
+
+#body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);
+ background-repeat: no-repeat; background-size: cover;  }
+#body2{background-image: url(./תמונת\ רקע\ לעמוד\ 2.jpg);
+    background-repeat: no-repeat; background-size: cover;}
+
+#body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg);
+    background-repeat: no-repeat; background-size: cover;}
+
 body{
     min-height: 100vh;
 }
+
 nav{ box-shadow: 3px 3px 5px black;}
 nav a:hover{
     background-color: blue;
 }
 
-
 .sidebar{
-position: fixed;
-top: 0;
-right: 0;
-height: 100vh;
-width: 250px;
-z-index: 999;
-background-color: rgb(208, 208, 208);
-backdrop-filter: blur(10px);
-box-shadow: -10px 0 10px black;
-display: none;
-flex-direction: column;
-align-items: flex-start;
-justify-content:flex-start;
-gap: 50px  ;
-}
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(241, 243, 244, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px black;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:flex-start;
+    gap: 50px  ;
+    }
+
+
+
 
 @media (max-width: 800px ){
-    .hideonMobile{
+    #hideonMobile{
         display: none;
     }
+   
+
+
+    .flex-box{
+        display:flex ;
+        align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+    }
+    .p{
+        font-style: italic;
+        width: 200;
+        height: 100;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: small;
+    
+    
+    
+    
+    }
+    #sd {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(241, 126, 95,0.5);
+        width: 400px;
+        font-size: small;
+    }
+    .li{
+    
+        
+        background-size: cover;
+        background-position: center;
+       
+        width:100%
+    }
+    a{
+        color:rgb(12, 12, 12);
+        font-size: large;
+        font-weight: bold;
+        align-items: center;
+        
+    }
+    .title{
+        display: flex;
+       justify-content: center;
+        flex-direction: row;
+        gap: 50px  ;
+     
+    }
+    
+    
+    .imgcard{
+        width: 100%;
+        height: 50px;
+        margin-right: 4px;
+    }
+    .img {
+        width: 200;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+
+ 
+    #section1p2{
+        background-color: rgb(178, 211, 211,0.5);
+       align-items: center;
+  
+    }
+    #section2p2{
+        background-color: rgb(178, 211, 211);
+        align-items: center;
+    }
+    #section3p2{
+        background-color: rgb(23, 169, 194,0.5);
+        align-items: center;
+    }
+    
+    .fimg{
+        width: 350 px;
+        height: 150px;
+    }
+    .sd{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       font-size:small;
+        
+        
+    }
+    .p2-flex-box{
+        display:flex ;
+    flex-direction: column;
+    margin: 65px;
+    gap: 20px   ;
+    width: 400px;
+    
+    
+    }
+    #attacks{
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    
+    .flex-box{
+        display:flex ;
+        align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    
+    
+    .card {
+        display: flex;
+    flex-direction: column;
+    
+        width: 320px;
+        height: 300; 
+        margin: 7px;
+        font-variant-position: sub;
+        font-size: small;
+        border: 15px;
+        color: aliceblue;
+    }
+    .Wrote{
+        color: rgb(23, 77, 59);
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .sizeVideo {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #sectionp4{
+        background-color: antiquewhite;
+    }
+    
+    header { position:sticky; top:0; background-color: aliceblue;}
+    
+    .imgpage1{
+        background-image: url(./תמונה\ לעמוד\ 1.jpg); 
+    }
+    .imgpage2{background-image: url(./תמונה\ לעמוד\ שתיים.jpg); }
+         
+    .imgpage3{background-image: url(./תמונה\ לעמוד\ 3.jpg)}
+    
+    .imgpage4{background-image: url(./תמונה\ לעמוד\ 4.jpg)}
+    
+    #body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg)}
+    #body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);}
+    #body2{background-image: url(./תמונת\ רקע\ לעמוד\ שתיים.jpg);}
+    #body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg)}
+    body{
+        min-height: 100vh;
+    }
+    nav{ box-shadow: 3px 3px 5px black;}
+    nav a:hover{
+        background-color: blue;
+    }
+    
+    
+    .sidebar{
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 100vh;
+        z-index: 999;
+        background-color: rgba(241, 243, 244, 0.5);
+        backdrop-filter: blur(10px);
+        box-shadow: -10px 0 10px black;
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content:flex-start;
+        gap: 50px  ;
+        }
+
+}
+
 
 }
