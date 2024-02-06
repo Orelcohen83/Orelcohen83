@@ -8,7 +8,7 @@ justify-content: center;
 }
 #seen{display: none; right: 100%;}
 .flex-box2{
-    font-size:xx-small;
+   
     display:flex ;
     align-items: center;
 flex-direction: row;
@@ -124,9 +124,14 @@ width: 200px;
 margin: 8px;
 
 }
+.sizeVidePP4{
+   
+        width: 200px;
+        margin: 8px; 
+}
 
 #sectionp4{
-    background-color: antiquewhite;
+    background-color: hsl(34, 78%, 91%,0.5);
 }
 
 header { position:sticky; top:0; background-color: aliceblue;}
@@ -180,7 +185,7 @@ nav a:hover{
 
 
 
-@media (max-width: 450px ){
+@media (max-width: 700px ){
     #hideonMobile{
         display: none;
     }
@@ -192,6 +197,14 @@ nav a:hover{
     justify-content: center;
     }
     #seen{display: flex; }
+
+    .flex-box2{
+        font-size:xx-small;
+        display:flex ;
+        align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    }
 
     .p{
         font-style: italic;
@@ -295,7 +308,7 @@ nav a:hover{
         align-items: center;
     flex-direction:column;
     justify-content: center;
-    
+    }
     
     .card {
         display: flex;
@@ -314,32 +327,34 @@ nav a:hover{
         font-size: x-large;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    .sizeVideo {
-        width: 200px;
-        height: 200px;
+    .sizeVideoP1 {
+        width: 100px;
+        height: 100px;
     }
     
+    .sizeVideoP4{
+        width: 400px;
+    }
+
     #sectionp4{
-        background-color: antiquewhite;
+        background-color: hsl(34, 78%, 91%,0.5);
     }
     
     header { position:sticky; top:0; background-color: aliceblue;}
     
-    .imgpage1{
-        background-image: url(./תמונה\ לעמוד\ 1.jpg); 
-    }
-    .imgpage2{background-image: url(./תמונה\ לעמוד\ שתיים.jpg); }
-         
-    .imgpage3{background-image: url(./תמונה\ לעמוד\ 3.jpg)}
-    
-    .imgpage4{background-image: url(./תמונה\ לעמוד\ 4.jpg)}
+
+        
     
     #body1{background-image: url(./תמונת\ רקע\ סון\ גוקו.jpg);
+        background-size: 100% 100%;}
    
-    #body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg);
+    #body4{background-image: url(./תמונת\ רקע\ עמוד\ 4.jpg); 
+        background-size: 500px 2100px;}
        
-    #body2{background-image: url(./תמונת\ רקע\ לעמוד\ שתיים.jpg);}
-    #body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg)}
+    #body2{background-image: url(./תמונת\ רקע\ לעמוד\ 2.jpg);
+        background-size: 500px 2000px;}
+    #body3{background-image: url(./תמונת\ רקע\ לעמוד\ שלוש.jpg);
+        background-size: 100% 100%;}
     body{
         min-height: 100vh;
     }
@@ -348,25 +363,9 @@ nav a:hover{
         background-color: blue;
     }
     
-    
-    .sidebar{
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: 100vh;
-        z-index: 999;
-        background-color: rgba(241, 243, 244, 0.5);
-        backdrop-filter: blur(10px);
-        box-shadow: -10px 0 10px black;
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content:flex-start;
-        gap: 50px  ;
-        }
+  
 
 }
 
 
-}
+
